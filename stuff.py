@@ -5,3 +5,5 @@ x = pd.DataFrame(np.zeros((10,10)))
 print(x,"\n")
 x.iloc[:] = 150
 print(x,"\n")
+y = x.max()
+print(y)
